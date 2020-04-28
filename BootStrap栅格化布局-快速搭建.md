@@ -53,7 +53,7 @@
 
 ### 官网简介：
 
-![image-20200424211712347](C:\Users\DW\Desktop\学习笔记\BootStrap栅格化布局-快速搭建.assets\image-20200424211712347.png)
+![image-20200424211712347](C:\Users\DW\Desktop\学习笔记\notes\BootStrap栅格化布局-快速搭建.assets\image-20200424211712347.png)
 
 ### 栅格参数
 
@@ -73,5 +73,5 @@
 
 ​	记住对应的类前缀和宽度就可以了，在实际的实验中再去使用就好了
 
-![image-20200424213347497](C:\Users\DW\Desktop\学习笔记\BootStrap栅格化布局-快速搭建.assets\image-20200424213347497.png)
+![image-20200424213347497](C:\Users\DW\Desktop\学习笔记\notes\BootStrap栅格化布局-快速搭建.assets\image-20200424213347497.png)
 

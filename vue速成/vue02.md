@@ -540,12 +540,16 @@ const app = new Vue({
   computed : {
     totalPrice(){
       let totalPrice = 0
-      // 这里操作有点问题，后面查看资料修改
+      // 这也可以
       /*for (let booksKey in this.books) {
-        totalPrice = totalPrice + (this.books[booksKey].price * booksKey.count)
+        totalPrice = totalPrice + (this.books[booksKey].price * this.books[booksKey].count)
       }*/
-      for (let i = 0; i < this.books.length; i++) {
-        totalPrice += (this.books[i].price * this.books[i].count)
+      //for (let i = 0; i < this.books.length; i++) {
+      //  totalPrice += (this.books[i].price * this.books[i].count)
+     // }
+      //这种更好
+      for (let i of this.books){
+        totalPrice += (i.price * i.count)
       }
       return totalPrice
     }
